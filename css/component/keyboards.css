@@ -1,0 +1,156 @@
+/*
+  * COMMUN
+  */
+.button {
+    color: #fff;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+}
+
+.button p {
+    border-radius: 5px;
+    background: #2C3E50;
+    padding: 10px 0 11px;
+}
+
+.button.hover {
+    opacity: 1;
+
+    -webkit-transition: ease 1.5s;
+    -moz-transition: ease 1.5s;
+    -o-transition: ease 1.5s;
+    transition: ease 1.5s;
+}
+
+.center {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.hover p:hover {
+    cursor: pointer;
+    opacity: .8;
+    background: #34495E;
+}
+#clavier {
+    position: relative;
+    top: -200px;
+}
+
+.lign:nth-child(2) {
+    margin-left: 40px;
+}
+
+.lign:nth-child(3) {
+    margin-right: 150px;
+}
+
+.lign {
+    text-align: center;
+}
+
+.key {
+    margin: 3px 1px;
+    width: 70px;
+    height: 70px;
+    background: #FF4957;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 10px;
+    line-height: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: -1px 57px 80px -17px rgba(255, 73, 87, 0.25);
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    -ms-transition: .3s;
+    transition: .3s;
+}
+
+#k32 {
+    width: 346px;
+}
+
+.lock {
+    background: #FF4957;
+}
+
+.tap {
+    background: rgb(255, 224, 226);
+}
+
+.active {
+    border: 2px solid #fff;
+    color: #34495E;
+}
+
+/*
+ * 960PX 
+ */
+@media screen and (min-width: 960px) {}
+
+.row {
+    text-align: center;
+    padding: 30px;
+}
+
+.row input {
+    margin: 30px;
+}
+
+.row h2 {
+    margin: 30px;
+    font-size: 50px;
+}
+
+.time {
+    position: relative;
+    top: -250px;
+    left: 350px;
+    border: 2px solid #2C3E50;
+    border-radius: 5px;
+    display: inline-block;
+
+    line-height: 52px;
+    text-align: center;
+    text-transform: uppercase;
+
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    -ms-transition: .3s;
+    transition: .3s;
+}
+
+input {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    background-color: #FF4957;
+    border-radius: 15px;
+    border: 3px solid #FF4957;
+    color: #fff;
+    font-size: 300%;
+    padding-left: 15px;
+    transition: marginleft 1s;
+    text-transform: uppercase;
+}
+
+#current-word {
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 550px) {
+
+.time{
+    display: none;
+}
+
+}

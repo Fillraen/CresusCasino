@@ -1,0 +1,77 @@
+h2{
+    margin: 0;
+    font-size: 1.15rem;
+    margin: 20px 20px 28px;
+    text-align: center;
+    font-weight: 400;
+}
+li{
+    list-style-type: none;
+}
+.menuDivider{
+    border-bottom: 1px solid #1a5a4f;
+    width: 100px;
+}
+
+#aside{
+    color: #ffffff;
+    background:#113A33;
+    display: flex;
+    width: 13vw;
+    height: 920px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: 300;
+    overflow: hidden;
+    flex: 1 0;
+}
+
+.btn-sign{
+    text-transform: uppercase;
+    color: #f57f31;
+    border: 1.5px solid #f57f31;
+    padding: 9px 35px;
+    background: transparent;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 0 0 15px;
+    line-height: 22px;
+}
+.btn-sign:hover{
+    color:#f79d62;
+}
+.mini-logo{
+    margin: 0 18px 0 0;
+    width: 25px;
+    vertical-align: middle;
+
+}
+.menu-list-item{
+    padding: 20px 0;
+    margin: 0px 0;
+}
+.menu-item{
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 52px;
+    padding: 10px 10px;
+    margin: 0;
+    font-size: 1em;
+    font-family: Roboto Slab,serif;
+    height: 52px;
+    text-transform: none;
+}
+
+.menu-item:hover{
+    color: rgba(255, 255, 255, 1);
+}
+
+
+
+@media screen and (max-width: 930px){
+
+#aside{
+display: none ;
+}
+}  

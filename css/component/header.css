@@ -1,0 +1,55 @@
+    .smallContainer{
+        background-color: #007969 ;
+    }
+
+nav #mainLogo{
+    width: 100px;
+    height: 75px;
+    margin: 10px;
+}
+#header nav{
+text-align: center;
+}
+nav .signIn2, nav .signIn{
+    font-size: 1.75rem;
+    margin: 20px;
+}
+
+.fas{
+    margin: 0 7px;
+}
+.signIn{
+    display: none;
+}
+
+#header{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    left: 0;
+}
+@media screen and (min-width: 600px)
+{
+    nav .fas{
+        font-size: 1.55rem;
+        vertical-align: middle;
+    }
+    nav #mainLogo{
+        margin: 16px;
+        margin-left: 30px;
+        width: 100px;
+        height: 75px;
+    }
+    nav .signIn{
+        display: block;
+        font-size: 1.15rem;
+        margin-right: 40px;
+    }
+    #header nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+}
