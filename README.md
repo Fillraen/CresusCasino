@@ -12,10 +12,10 @@ Cresus Casino est une reproduction d'un site web de casino en ligne. Ce projet a
 ![Page Principale du Casino](Casino.png)
 
 ### 🏎️ Jeu de Speed Typing
-![Jeu de Speed Typing](CresusJeu1.png)
+![Jeu de Speed Typing](CresusJeu2.png)
 
 ### 🍒 Slot Machine
-![Slot Machine](CresusJeu2.png)
+![Slot Machine](CresusJeu1.png)
 
 
 ---
