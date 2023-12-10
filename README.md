@@ -20,4 +20,4 @@ Cresus Casino est une reproduction d'un site web de casino en ligne. Ce projet a
 
 ---
 
-🎲 Développé avec passion par [Votre Nom]
+🎲 Développé avec passion par Nicolas
